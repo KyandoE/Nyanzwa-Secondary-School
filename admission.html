@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admission - Nyanzwa Secondary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>…</header>
+
+  <main class="container">
+    <h2>Join Our Community</h2>
+    <form id="admissionForm" novalidate>
+      <div class="form-group">
+        <label for="stuName">Student Name</label>
+        <input type="text" id="stuName" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" required>
+      </div>
+      <div class="form-group">
+        <label for="grade">Applying Grade</label>
+        <select id="grade" required>
+          <option value="">Select</option>
+          <option>Form 1</option>
+          <option>Form 2</option>
+          <option>Form 3</option>
+          <option>Form 4</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="parentEmail">Parent Email</label>
+        <input type="email" id="parentEmail" required>
+      </div>
+      <button type="submit" class="btn">Submit Application</button>
+      <div id="admissionMsg" class="form-msg"></div>
+    </form>
+  </main>
+
+  <footer>…</footer>
+  <script src="main.js"></script>
+</body>
+</html>
